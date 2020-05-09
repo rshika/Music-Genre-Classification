@@ -3,6 +3,22 @@
 
 This project categories music based on genre.The dataset used here is GTZAN datset, an universal dataset for music related projects, the link for the dataset is given below. The raw data is preprocessed and trained to get the desired output. ML and DL can be used for the better accuracy of the project.
 
+Approach
+1) Machine Learning :-
+Features like mel-ceptral coefficients, zero-crossing rate, power, loudness etc. are extracted from audio files using librosa library afterwhich the data is feed into the ML models to classify data.
+
+2) Deep Learning :-
+Mel Spectrogram images are formed from audio files which are very strong features to discriminate the properties of two audio files. So, these images are feed into CNN model for classification into 10 genres.
+
+Read and follow the instructions carefully.
+Packages
+Tensorflow
+Keras
+Scikit-Learn
+Tkinter
+Librosa
+Numpy, Pandas, Matplotlib
+Python 3.6.0
 
 Raw data:
 
@@ -29,6 +45,7 @@ Deep Learning
 
 CNN_train: This notebook contains all the steps right from creating images from audio to training them using CNN and finally exporting the model too
 
+Audio Classification Output:
 
 Conclusion
 Deep Learning methodology proves to be more accurate with around 75% accuracy in classifying the genres whereas machine learning acheives around 65% accuracy. You can see the csv file in models directory where the comparison is made between used architectures.
