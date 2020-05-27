@@ -59,12 +59,18 @@ Fuzzy-logic-DHD reqires Python3 to run Install the dependencies and clone the re
 $ cd Fuzzy-logic-DHD $ git clone https://github.com/rshika/Music-Genre-Classification
 
 Working of Project
-First Make sure u have the CNN model in your models directory. If not, you can download it from : https://drive.google.com/file/d/1-HeGSucv1nlaxWhOsEFzPwLAO5UFfYyd/view?usp=sharing
 
-Run AudioClassification python script, play some music and let the model classify music genre for u ;)
+
+1.    First Make sure u have the CNN model in your models directory. If not, you can download it from : https://drive.google.com/file/d/1-HeGSucv1nlaxWhOsEFzPwLAO5UFfYyd/view?usp=sharing
+
+2.     Run AudioClassification python script, play some music and let the model classify music genre for u ;)
 
 
 
 
 Conclusion
+
+
+
+
 Deep Learning methodology proves to be more accurate with around 75% accuracy in classifying the genres whereas machine learning acheives around 65% accuracy. You can see the csv file in models directory where the comparison is made between used architectures.
