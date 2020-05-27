@@ -1,0 +1,21 @@
+PACKAGES:
+
+
+
+Tensorflow
+Keras
+Scikit-Learn
+Tkinter
+Librosa
+Numpy, Pandas, Matplotlib
+Python 3.6.0
+
+
+
+RAW DATA:
+
+Download GTZAN Dataset from: http://opihi.cs.uvic.ca/sound/genres.tar.gz Raw data is 1.2GB and consists of 1000 audio files(.au) divided into 10 folders for 10 genres equally. I.e Every genre has 100 audio files.
+
+PRE-PROCESSED DATA
+
+The raw audio has been converted to mel-spectograms and other features using librosa library for Machine Learning purpose and can be found in the folder as csv file. Feature spectrogram images are made from the audio files directly during training for Deep Learning model.
