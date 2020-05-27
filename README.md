@@ -3,14 +3,14 @@
 
 This project categories music based on genre.The dataset used here is GTZAN datset, an universal dataset for music related projects, the link for the dataset is given below. The raw data is preprocessed and trained to get the desired output. ML and DL can be used for the better accuracy of the project.
 
-Approach
+#Approach
 1) Machine Learning :-
 Features like mel-ceptral coefficients, zero-crossing rate, power, loudness etc. are extracted from audio files using librosa library afterwhich the data is feed into the ML models to classify data.
 
 2) Deep Learning :-
 Mel Spectrogram images are formed from audio files which are very strong features to discriminate the properties of two audio files. So, these images are feed into CNN model for classification into 10 genres.
 
-Packages
+#Packages
 
 Tensorflow
 
@@ -27,17 +27,17 @@ Numpy, Pandas, Matplotlib
 Python 3.6.0
 
 
-Raw data:
+#Raw data:
 
 Download GTZAN Dataset from: http://opihi.cs.uvic.ca/sound/genres.tar.gz Raw data is 1.2GB and consists of 1000 audio files(.au) divided into 10 folders for 10 genres equally. I.e Every genre has 100 audio files.
 
-Preprocessed data:
+#Preprocessed data:
 
 The raw audio has been converted to mel-spectograms and other features using librosa library for Machine Learning purpose and can be found in the folder as csv file. Feature spectrogram images are made from the audio files directly during training for Deep Learning model.
 
-Code Notebooks
+#Code Notebooks
 
-Machine Learning
+#Machine Learning
 
 To run code in any of these notebooks, first please download raw data from Dataset link above
 
@@ -47,10 +47,23 @@ audio_data_visualization: Plots time series visualization and spectograms for th
 
 train_classical_ml_models: Loads the generated feature file. Trains the dataset using lgbm+SVM and XGBoost architecture and exports the model after training.
 
-Deep Learning
+#Deep Learning
 
 
 CNN_train: This notebook contains all the steps right from creating images from audio to training them using CNN and finally exporting the model too
+
+All this technologies provide us stable and good work with our project
+
+Fuzzy-logic-DHD reqires Python3 to run Install the dependencies and clone the repo:
+
+$ cd Fuzzy-logic-DHD $ git clone https://github.com/rshika/Music-Genre-Classification
+
+Working of Project
+First Make sure u have the CNN model in your models directory. If not, you can download it from : https://drive.google.com/file/d/1-HeGSucv1nlaxWhOsEFzPwLAO5UFfYyd/view?usp=sharing
+
+Run AudioClassification python script, play some music and let the model classify music genre for u ;)
+
+
 
 
 Conclusion
